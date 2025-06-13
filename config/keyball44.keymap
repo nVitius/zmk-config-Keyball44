@@ -65,7 +65,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp TAB         &kp Q     &kp W      &kp E         &kp R      &kp T                     &kp Y        &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
+&kp TAB         &kp Q     &kp W      &kp E         &kp R      &kp T                     &kp Y        &kp U  &kp I      &kp O    &kp P      &none
 &kp LCTRL       &kp A     &kp S      &kp D         &kp F      &kp G                     &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LEFT_SHIFT  &kp Z     &kp X      &kp C         &kp V      &kp B                     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
 &kp LGUI        &kp LALT  &kp SPACE  &layer_dance  &lt 1 DEL             &kp BACKSPACE  &lt 6 SPACE                                        &mo 3
@@ -85,10 +85,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp GRAVE  &none     &none   &kp END        &none            &kp ESCAPE                 &none     &kp PAGE_UP  &none   &none   &kp MINUS         &kp EQUAL
-&none      &kp HOME  &none   &kp PAGE_DOWN  &none            &trans                     &none     &none        &none   &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none      &trans    &trans  &trans         &trans           &trans                     &none     &none        &trans  &trans  &none             &none
-&trans     &trans    &trans  &trans         &kp PRINTSCREEN                  &kp ENTER  &kp C_PP                                                 &trans
+&kp GRAVE  &none     &none   &kp END        &none            &kp ESCAPE                 &none           &kp PAGE_UP     &none         &none            &kp MINUS         &kp EQUAL
+&none      &kp HOME  &none   &kp PAGE_DOWN  &none            &trans                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&none      &trans    &trans  &trans         &trans           &trans                     &none           &none           &trans        &trans           &none             &none
+&trans     &trans    &trans  &trans         &kp PRINTSCREEN                  &kp ENTER  &kp C_PP                                                                         &trans
             >;
         };
 
