@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&tapbootlader'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -142,7 +142,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&tapbootlader'
   - F1
   - F2
   - F3
