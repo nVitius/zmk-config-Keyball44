@@ -42,8 +42,8 @@ layers:
   - $$mdi:keyboard-space$$
   - SYM
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUM}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
   - FUN
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -132,7 +132,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
