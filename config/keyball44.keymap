@@ -80,20 +80,20 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp TAB         &kp Q     &kp W      &kp E  &kp R      &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P      &kp BACKSLASH
-&kp LCTRL       &kp A     &kp S      &kp D  &kp F      &kp G                     &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z     &kp X      &kp C  &kp V      &kp B                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
-&kp LGUI        &kp LALT  &kp SPACE  &mo SYM  &lt NUM DEL         &kp BACKSPACE  &kp SPACE                                        &mo FUN
+&kp TAB         &kp Q     &kp W      &kp E    &kp R        &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P      &kp BACKSLASH
+&kp LCTRL       &kp A     &kp S      &kp D    &kp F        &kp G                     &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LEFT_SHIFT  &kp Z     &kp X      &kp C    &kp V        &kp B                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
+&kp LGUI        &kp LALT  &kp SPACE  &mo SYM  &lt NUM DEL             &kp BACKSPACE  &kp SPACE                                        &mo FUN
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans                                                   &trans
+&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans              &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans     &trans     &trans                 &trans  &trans                                           &trans
             >;
         };
 
