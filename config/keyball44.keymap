@@ -100,9 +100,9 @@
         number_layer {
             label = "NUM";
             bindings = <
-&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none   &none         &none         &none         &none         &none                     &none         &none         &none         &none         &none         &none
-&none   &none         &none         &none         &none         &none                     &none         &none         &trans        &trans        &none         &none
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans                    &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans                    &trans        &trans        &trans        &trans        &trans        &trans
 &trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &trans
             >;
         };
@@ -110,9 +110,9 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&esc_grave  &none     &none   &kp END        &none            &tapbootlader                 &none           &kp PAGE_UP     &none         &none            &kp MINUS         &kp EQUAL
-&none       &kp HOME  &none   &kp PAGE_DOWN  &none            &trans                        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none       &trans    &trans  &trans         &trans           &trans                        &none           &none           &trans        &trans           &none             &none
+&esc_grave  &trans    &trans  &kp END        &trans           &tapbootlader                 &trans          &kp PAGE_UP     &trans        &trans           &kp MINUS         &kp EQUAL
+&trans      &kp HOME  &trans  &kp PAGE_DOWN  &trans           &trans                        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans    &trans  &trans         &trans           &trans                        &trans          &trans          &trans        &trans           &trans            &trans
 &trans      &trans    &trans  &trans         &kp PRINTSCREEN                     &kp ENTER  &kp C_PP                                                                         &trans
             >;
         };
@@ -120,9 +120,9 @@
         function_layer {
             label = "FUN";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4              &tapbootlader  &kp F1  &kp F2   &kp F3   &kp F4   &none
-&none       &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_TOG  &none                     &none          &kp F5  &kp F6   &kp F7   &kp F8   &none
-&none       &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &none                     &none          &kp F9  &kp F10  &kp F11  &kp F12  &none
+&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4              &tapbootlader  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&trans      &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_TOG  &trans                    &trans         &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans      &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &trans                    &trans         &kp F9  &kp F10  &kp F11  &kp F12  &trans
 &trans      &trans           &trans           &trans           &trans                             &trans  &trans                                            &trans
             >;
         };
